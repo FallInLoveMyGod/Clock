@@ -13,6 +13,7 @@
 		FE4337EF1EE94AAA00925D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE4337ED1EE94AAA00925D4F /* Main.storyboard */; };
 		FE4337F11EE94AAA00925D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE4337F01EE94AAA00925D4F /* Assets.xcassets */; };
 		FE4337F41EE94AAB00925D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE4337F21EE94AAB00925D4F /* LaunchScreen.storyboard */; };
+		FE5A2B931EEE7F33000B383A /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5A2B921EEE7F33000B383A /* ClockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FE4337F01EE94AAA00925D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE4337F31EE94AAB00925D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE4337F51EE94AAB00925D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5A2B911EEE7F33000B383A /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
+		FE5A2B921EEE7F33000B383A /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				FE4337E81EE94AAA00925D4F /* AppDelegate.m */,
 				FE4337EA1EE94AAA00925D4F /* ViewController.h */,
 				FE4337EB1EE94AAA00925D4F /* ViewController.m */,
+				FE5A2B911EEE7F33000B383A /* ClockView.h */,
+				FE5A2B921EEE7F33000B383A /* ClockView.m */,
 				FE4337ED1EE94AAA00925D4F /* Main.storyboard */,
 				FE4337F01EE94AAA00925D4F /* Assets.xcassets */,
 				FE4337F21EE94AAB00925D4F /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE4337EC1EE94AAA00925D4F /* ViewController.m in Sources */,
+				FE5A2B931EEE7F33000B383A /* ClockView.m in Sources */,
 				FE4337E91EE94AAA00925D4F /* AppDelegate.m in Sources */,
 				FE4337E61EE94AAA00925D4F /* main.m in Sources */,
 			);
@@ -309,6 +315,7 @@
 				FE4337FA1EE94AAB00925D4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
